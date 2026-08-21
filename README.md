@@ -95,6 +95,10 @@ wechat-cli init
 
 This auto-detects your WeChat data directory, extracts encryption keys, and saves config to `~/.wechat-cli/`.
 
+WSL + Windows enviorment，WeChat data directory location can check below path as reference :
+
+{ "db_dir": "/mnt/c/Users/"Your_User_Name"/Documents/xwechat_files/F1404914983_a84d/db_storage" }
+
 ![init-claude-code-1](image/init-claude-code-1.png)
 
 On macOS, you'll need to run the `sudo` command and enter your password:
